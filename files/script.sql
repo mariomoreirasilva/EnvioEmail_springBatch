@@ -23,9 +23,9 @@ CREATE TABLE tb_user_book_loan (
 	FOREIGN KEY (book_id) REFERENCES tb_book(id)
 );
 
-INSERT INTO tb_user(id, name, email) VALUES (1, 'Maria', 'seu-email@mailslurp.com');
+INSERT INTO tb_user(id, name, email) VALUES (1, 'Maria', 'mario@desban.org.br');
 INSERT INTO tb_user(id, name, email) VALUES (2, 'João', 'seu-email@mailslurp.com');
-INSERT INTO tb_user(id, name, email) VALUES (3, 'Ana', 'seu-email@mailslurp.com');
+INSERT INTO tb_user(id, name, email) VALUES (3, 'Ana', 'mario.moreirasilva@outlook.com');
 
 INSERT INTO tb_book (id, name, description, author, category) VALUES(1, 'Capitães de Areia', 'Lorem ipsum dolor sit amet. Est dicta voluptate sed pariatur laboriosam repellendus!', 'Jorge Amado', 'Romance');
 INSERT INTO tb_book (id, name, description, author, category) VALUES(2, 'Dom Casmurro', 'Lorem ipsum dolor sit amet. Et praesentium nobis ut quaerat voluptate eum volup.', 'Machado de Assis', 'Romance');
@@ -38,6 +38,6 @@ INSERT INTO tb_book (id, name, description, author, category) VALUES(8, 'Os Mise
 INSERT INTO tb_book (id, name, description, author, category) VALUES(9, 'Dom Quixote', 'Hic nobis dolor ut praesentium aspernatur', 'Miguel de Cervantes', 'Romance');
 
 INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(1, 9, '2023-01-29');
-INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(1, 4, '2023-01-31');
+INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(1, 4, '2024-12-13');
 INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(2, 6, '2023-01-29');
-INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(3, 2, '2023-01-31');
+INSERT INTO tb_user_book_loan(user_id, book_id, loan_date) VALUES(3, 2, '2024-12-13');
